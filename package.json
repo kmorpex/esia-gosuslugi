@@ -1,0 +1,36 @@
+{
+  "name": "esia-gosuslugi",
+  "version": "0.1.1",
+  "description": "Модуль идентификации и аутентификации через ЕСИА ГОСТ 34.10.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetihead/esia.git"
+  },
+  "keywords": [
+    "esia",
+    "gosuslugi",
+    "ЕСИА",
+    "госуслуги",
+    "аутентифкация"
+  ],
+  "author": "Konstantin Fedorov",
+  "license": "MIT",
+  "homepage": "https://github.com/yetihead/esia#readme",
+  "dependencies": {
+    "@chilkat/ck-node12-macosx": "^9.50.82",
+    "axios": "^0.19.2",
+    "gost-crypto": "^1.1.4",
+    "jwt-decode": "^2.2.0",
+    "node-crypto-gost": "^1.0.1",
+    "querystring": "^0.2.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-google": "^0.9.1",
+    "husky": "^0.14.3",
+    "mocha": "^5.2.0",
+    "sinon": "^6.0.1"
+  }
+}
